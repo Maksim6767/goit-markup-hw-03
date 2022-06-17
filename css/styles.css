@@ -33,11 +33,22 @@
     letter-spacing: 0.03em;
  }   
  .list {
+   padding: 0;
+   margin: 0;
    list-style: none;
  }
  a {
    text-decoration: none;
  }
+.container {
+width: 1200px;
+padding-left: 15px;
+padding-right: 15px;
+margin: 0 auto;
+
+border: 1px solid orange;
+}
+
  /* Logo */
  .logo,
  .logo-studio {
@@ -88,18 +99,27 @@
 }
  
 /* Hero */
+.hero {
+   margin-bottom: 0;
+   text-align: center;
+}
 .hero-title {
+   margin-top: 0;
+   margin-bottom: 30px;
    background-color: var(--secondary-bg-color);
    color: var(--accent-text-color);
    font-weight: 900;
    font-size: 44px;
    line-height: 1.36;
-   text-align: center;
    letter-spacing: 0.06em;
    text-transform: uppercase;
+
+   border: 1px solid orange;
 }
 /* Button */
 .button {
+   border-radius: 4px;
+   padding: 10px 32px;
    color: var(--accent-text-color);
    background-color: var(--button-bg-color);
    font-family: Roboto;
@@ -107,7 +127,6 @@
    font-size: 16px;
    line-height: 1.89;
    align-items: center;
-   text-align: center;
    letter-spacing: 0.06em;
    cursor: pointer;
 }
@@ -119,7 +138,13 @@
 .work {
    background-color: var(--main-bg-color);
 }
+.section {
+   padding-top: 94px;
+   padding-bottom: 94px;
+}
 .section-title {
+   margin-top: 0;
+   margin-bottom: 10px;
    color: var(--title-text-color);
    font-weight: 700;
    font-size: 14px;
@@ -127,6 +152,8 @@
    text-transform: uppercase;
 }
 .section-text {
+   margin-top: 0;
+   margin-bottom: 10px;
    font-size: 14px;
    line-height: 1.71;
 }
