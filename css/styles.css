@@ -155,7 +155,6 @@
    background-color:var(--secondary-bg-color);
 }
 /* Section benefits*/
-
 .section,
 .work {
    margin-top: 0;
@@ -163,7 +162,17 @@
    padding-bottom: 94px;
    background-color: var(--main-bg-color);
 }
-
+.benefits {
+   display: flex;
+   align-items: center;
+  
+}
+.benefits .item {
+   width: 370px;
+}
+.benefits .item+.item {
+   margin-left: 30px;
+}
 .section-title {
    margin-top: 0;
    margin-bottom: 10px;
