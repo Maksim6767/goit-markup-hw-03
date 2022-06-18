@@ -16,24 +16,18 @@
 <body>
 
 <header>
-    <div class="container">
+    <div class="container main">
    <a href="/" class="logo">Web<span class="logo-studio">Studio</span></a>
     <nav>
     <ul class="site-nav list">
-        <li>
-            <a href="./index.html" class="link current">Студия</a>
-        </li>
-        <li>
-            <a href="./portfolio.html" class="link">Портфолио</a>
-        </li>
-        <li>
-            <a href="#" class="link">Контакты</a>
-        </li>
+        <li class="item"><a href="./index.html" class="link current">Студия</a></li>
+        <li class="item"><a href="./portfolio.html" class="link">Портфолио</a></li>
+        <li class="item"><a href="#" class="link">Контакты</a></li>
     </ul>
     </nav>
 <ul class="auth list">
-    <li> <a href="mailto:info@devstudio.com" class="link">info@devstudio.com</a></li>
-    <li> <a href="tel:+380961111111" class="link">+38 096 111 11 11 </a></li>
+    <li class="item"> <a href="mailto:info@devstudio.com" class="link">info@devstudio.com</a></li>
+    <li class="item"> <a href="tel:+380961111111" class="link">+38 096 111 11 11 </a></li>
 </ul>
 </div>
 </header>
@@ -44,11 +38,11 @@
         <h1 class="hero-title" >Эффективные решения <br />для вашего бизнеса</h1>
         <button type="button" class="button">Заказать услугу</button>
     </section >
-      
+     
     <!-- <h2>Наши преимущества</h2> -->
+    <div class="container">
     <section class="section">
-        <div class="container">
-        <ul class="section list">
+        <ul class="list">
         <li>
         <h3 class="section-title">Внимание к деталям</h3>
         <p class="section-text">Идейные соображения, а также начало повседневной работы по формированию позиции.</p>
@@ -66,9 +60,11 @@
         <p class="section-text">Значимость этих проблем настолько очевидна, что реализация плановых заданий.</p>
     </li>
         </ul>
-        </div>
     </section>
+    </div>
+   
     <!-- Чем мы занимаемся -->
+    <div class="container">
     <section class="work">
         <h2 class="work-title">Чем мы занимаемся</h2>
 <ul class="list">
@@ -83,44 +79,48 @@
     </li>
 </ul>
     </section>
+</div>
+
     <!-- Наша команда -->
+    <div class="container">
     <section class="team">
         <h2 class="team-title">Наша команда</h2>
         <ul class="list">
             <li>
-                <img src="./images/photo1.jpg" alt="Фото Игоря Демьяненко" width="270" height="260">
+                <img  class="photo" src="./images/photo1.jpg" alt="Фото Игоря Демьяненко" width="270" height="260">
                 <h3 class="photo-title">Игорь Демьяненко</h3>
                 <p class="photo-text">Product Designer</p>
             </li>
             <li>
-                <img src="./images/photo2.jpg" alt="Фото Ольги Репиной" width="270" height="260">
+                <img class="photo" src="./images/photo2.jpg" alt="Фото Ольги Репиной" width="270" height="260">
                 <h3 class="photo-title">Ольга Репина</h3>
                 <p class="photo-text">Frontend Developer</p>
             </li>
             <li>
-                <img src="./images/photo3.jpg" alt="Фото Николая Тарасова" width="270" height="260">
+                <img class="photo" src="./images/photo3.jpg" alt="Фото Николая Тарасова" width="270" height="260">
                 <h3 class="photo-title">Николай Тарасов</h3>
                 <p class="photo-text">Marketing</p>
             </li>
             <li>
-                <img src="./images/photo4.jpg" alt="Фото Михаила Ермакова" width="270" height="260">
+                <img class="photo" src="./images/photo4.jpg" alt="Фото Михаила Ермакова" width="270" height="260">
                 <h3 class="photo-title">Михаил Ермаков</h3>
                 <p class="photo-text">UI Designer</p>
             </li>
         </ul>
     </section>
+    </div>
 </main>
-
+<div class="container">
 <footer class="adress">
     <a href="/" class="logo">Web<span class="logo-studio">Studio</span></a>
     <address>
         <p class="adress-title">г. Киев, пр-т Леси Украинки, 26</p>
         <ul class="list">
-            <li><a href="mailto:info@devstudio.com" class="adress-link">info@devstudio.com</a></li>
+            <li class="mailto"><a href="mailto:info@devstudio.com" class="adress-link">info@devstudio.com</a></li>
             <li><a href="tel:+380961111111" class="adress-link">+38 096 111 11 11</a></li>
         </ul>
     </address>
 </footer>
-
+</div>
 </body>
 </html>
