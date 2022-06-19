@@ -48,6 +48,7 @@
  .main {
    display: flex;
    align-items: center;
+   border-bottom: 1px solid #ececec;
  }
 
  /* Logo */
@@ -209,10 +210,17 @@ width: calc((100% - 60px) / 3);
    text-align: center;
 }
 .team {
+
    margin-top: 0fr;
    padding-top: 94px;
    padding-bottom: 94px;
    background-color:var(--team-bg-color);
+}
+.team-photo {
+   display: flex;
+}
+.team-photo .item + .item {
+   margin-left: 30px;
 }
 .photo {
    margin-top: 0;
@@ -323,6 +331,7 @@ width: calc((100% - 60px) / 3);
 .flex-element {
    margin-right: 30px;
    margin-bottom: 30px;
+   border-bottom: 1px solid #eeeeee;
 }
 .flex-element:nth-child(3n) {
    margin-right: 0px;
