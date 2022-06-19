@@ -20,7 +20,7 @@
    --accent-text-color:#ffffff;
    --footer-contact-color:rgba(255, 255, 255, 0.6);
    --primery-bg-color: #ffffff;
-   --team-bg-color: #f5f4fA; 
+   --team-bg-color: #f5f4fa; 
    --secondary-bg-color:#2f303a;
    --button-bg-color: #2196f3;
    --main-bg-color: #e5e5e5;
@@ -156,9 +156,9 @@
    background-color:var(--secondary-bg-color);
 }
 /* Section benefits*/
-.section,
-.work {
+.section {
    margin-top: 0;
+   padding-left: 15px;
    padding-top: 94px;
    padding-bottom: 94px;
    background-color: var(--main-bg-color);
@@ -210,10 +210,6 @@ width: calc((100% - 60px) / 3);
    text-align: center;
 }
 .team {
-
-   margin-top: 0fr;
-   padding-top: 94px;
-   padding-bottom: 94px;
    background-color:var(--team-bg-color);
 }
 .team-photo {
