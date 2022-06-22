@@ -160,9 +160,9 @@
 /* Section benefits*/
 .section {
    margin-top: 0;
-   padding-top: 94px;
-   padding-bottom: 94px;
-   background-color: var(--main-bg-color);
+   padding-top: 47px;
+   padding-bottom: 47px;
+   /* background-color: var(--main-bg-color); */
 }
 .benefits {
    display: flex;
@@ -220,7 +220,10 @@ width: calc((100% - 60px) / 3);
 }
 .photo {
    margin-top: 0;
-   margin-bottom: 30px;
+}
+.block-team {
+   padding-top: 30px;
+   padding-bottom: 30px;
 }
 .photo-title {
    margin-top: 0;
@@ -233,7 +236,7 @@ width: calc((100% - 60px) / 3);
 }
 .photo-text {
    margin-top: 0;
-   margin-bottom: 30px;
+   margin-bottom: 0;
    font-size: 16px;
    line-height: 19px;
    text-align: center;
@@ -251,9 +254,14 @@ width: calc((100% - 60px) / 3);
  {
    color: var(--accent-text-color);
 }
+
+.adrs {
+   margin-top: 0px;
+   margin-bottom: 20px;
+}
 .adress-title {
-   margin-top: 20px;
-   margin-bottom: 9px; 
+   margin-top: 0px;
+   margin-bottom: 9px;
 }
 
 .adress-title,
@@ -261,9 +269,14 @@ width: calc((100% - 60px) / 3);
    font-style: normal;
    font-size: 14px;
    line-height: 1.71;
+   margin-bottom: 9px; 
 }
-.tel {
-   margin-top: 9px;
+.contact-mailto {
+   margin-top: 0;
+   margin-bottom: 9px;
+}
+.contact-tel {
+   margin-top: 0;
    margin-bottom: 0px;
 }
 .adress-link {
@@ -280,7 +293,7 @@ width: calc((100% - 60px) / 3);
 .btn {
    display: flex;
    flex-wrap: wrap; 
-   margin-bottom: 34px;
+   margin-bottom: 50px;
    justify-content: center;
 }
 .item {
@@ -320,12 +333,13 @@ width: calc((100% - 60px) / 3);
 .card {
    display: flex;
    flex-wrap: wrap;
-   width: calc ((100% - 60px) / 3);
+   min-width: calc ((100% - 60px) / 3);
+   justify-content: center;
 }
 .flex-element {
    margin-right: 30px;
    margin-bottom: 30px;
-   border-bottom: 1px solid #eeeeee;
+   border: 1px solid #eeeeee;
 }
 .flex-element:nth-child(3n) {
    margin-right: 0px;
@@ -336,7 +350,9 @@ width: calc((100% - 60px) / 3);
 
 .card-photo {
    margin-top: 0;
-   margin-bottom:20px; 
+}
+.block {
+   padding: 20px 24px;
 }
 .card-title {
    margin-top: 0;
@@ -349,7 +365,7 @@ width: calc((100% - 60px) / 3);
 }
 .card-text {
    margin-top: 0;
-   margin-bottom: 20px;
+   margin-bottom: 0;
    color: var(--primery-text-color);
    font-size: 16px;
    line-height: 1.88;
