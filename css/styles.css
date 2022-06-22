@@ -19,6 +19,7 @@
    --title-text-color: #212121;
    --accent-text-color:#ffffff;
    --footer-contact-color:rgba(255, 255, 255, 0.6);
+   
    --primery-bg-color: #ffffff;
    --team-bg-color: #f5f4fa; 
    --secondary-bg-color:#2f303a;
@@ -63,6 +64,7 @@
 .logo-studio {
    color: var(--title-text-color);
  }
+ 
  /* Site nav */
 .site-nav {
    margin-left: 93px;
@@ -80,12 +82,13 @@
  .site-nav .link.current {
    color: var(--button-bg-color);
  }
- .site-nav .link:hover {
-   color:var(--button-bg-color);
- }
+ .site-nav .link:hover,
  .site-nav .link:focus {
-   color: var(--primery-text-color);}
- .site-nav .link {
+   color: var(--button-bg-color);
+ }
+
+ 
+.site-nav .link {
    display: block;
    padding-top: 32px;
    padding-bottom: 32px;
@@ -103,18 +106,19 @@
    line-height: 1.14;
    letter-spacing: 0.02em;
 }
+.auth .link:hover,
+.auth .link:focus {
+   color: var(--button-bg-color);
+   }
+   
 .auth .link {
    display: block;
    padding-top: 32px;
    padding-bottom: 32px;
    color: var(--primery-text-color);
 }
-.auth .link:hover {
-   color: var(--button-bg-color);
-   }
-.auth .link:focus {
-   color: var(--title-text-color);
-}
+
+
 .auth .item + .item {
    margin-left: 50px;
    }
@@ -255,10 +259,6 @@ width: calc((100% - 60px) / 3);
    color: var(--accent-text-color);
 }
 
-.adrs {
-   margin-top: 0px;
-   margin-bottom: 20px;
-}
 .adress-title {
    margin-top: 0px;
    margin-bottom: 9px;
@@ -269,6 +269,7 @@ width: calc((100% - 60px) / 3);
    font-style: normal;
    font-size: 14px;
    line-height: 1.71;
+   margin-top: 20px;
    margin-bottom: 9px; 
 }
 .contact-mailto {
