@@ -161,6 +161,7 @@
 .button:hover {
    background-color:var(--secondary-bg-color);
 }
+
 /* Section benefits*/
 .section {
    margin-top: 0;
@@ -283,12 +284,11 @@ width: calc((100% - 60px) / 3);
 .adress-link {
    color: var(--footer-contact-color);
 }
-.adress-link:hover {
+.adress-link:hover,
+.adress-link:focus {
    color: var(--button-bg-color);
 }
-.adress-link:focus {
-   color: var(--primery-text-color);
-}
+
 /* Portfolio */
 /* Buttons */
 .btn {
@@ -322,7 +322,8 @@ width: calc((100% - 60px) / 3);
    line-height: 1.63;
    cursor: pointer;
 }
-.btn .color:hover {
+.btn .color:hover, 
+.btn .color:focus {
    color: var(--accent-text-color);
    background-color: var(--button-bg-color);
 }
