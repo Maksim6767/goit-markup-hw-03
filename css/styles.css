@@ -165,9 +165,11 @@
 /* Section benefits*/
 .section {
    margin-top: 0;
-   padding-top: 47px;
-   padding-bottom: 47px;
-   /* background-color: var(--main-bg-color); */
+   padding-top: 94px;
+   padding-bottom: 94px;
+}
+.all-benefits {
+padding-bottom: 47px;
 }
 .benefits {
    display: flex;
@@ -194,12 +196,17 @@
    font-size: 14px;
    line-height: 1.71;
 }
+
 /* Section Work, Our team*/
+.work {
+   padding-top: 47px;
+   padding-bottom: 47px;
+}
 .work-img {
    display: flex;
 }
 .work .item {
-width: calc((100% - 60px) / 3);
+   width: calc((100% - 60px) / 3);
 }
 .work-img .item + .item {
    margin-left: 30px;}
@@ -214,8 +221,10 @@ width: calc((100% - 60px) / 3);
    line-height: 1.17;
    text-align: center;
 }
+
 .team {
    background-color:var(--team-bg-color);
+   padding-top: 47px;
 }
 .team-photo {
    display: flex;
@@ -335,13 +344,12 @@ width: calc((100% - 60px) / 3);
 .card {
    display: flex;
    flex-wrap: wrap;
-   min-width: calc ((100% - 60px) / 3);
+   width: calc ((100% - 60px) / 3);
    justify-content: center;
 }
 .flex-element {
    margin-right: 30px;
    margin-bottom: 30px;
-   border: 1px solid #eeeeee;
 }
 .flex-element:nth-child(3n) {
    margin-right: 0px;
@@ -355,6 +363,8 @@ width: calc((100% - 60px) / 3);
 }
 .block {
    padding: 20px 24px;
+   border: 1px solid #eeeeee; 
+   border-top: 0;
 }
 .card-title {
    margin-top: 0;
